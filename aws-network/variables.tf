@@ -7,3 +7,7 @@ variable "cidr" {
   type        = string
   description = "CIDR da rede VPC"
 }
+variable "subnet_cidr" {
+  type        = string
+  description = "CIDR da sub-rede"
+}
